@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/proregister.css">
+  </head>
+  <body>
+  	<!-- body code goes here -->
+	<!-- Navigation -->
+<div id="main menu" class="container-fluid p-0 bg-black">
+ <div class="container">
+  <nav class="navbar navbar-expand-md navbar-dark bg-black">
+   <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link text-white" href="Login.html">Log in</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link text-white" href="Register.html">Sign up</a>
+         </li>
+       </ul>
+   </div>
+    <div class="mx-auto order-0">
+      <a class="navbar-brand mx-auto p-2" href="Main page.html">BuildIt</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+    </div>
+  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item text-white">
+       <a class="nav-link text-white" >Pro</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link text-white" href="prologin.html">Log in</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link text-white" href="proRegister.html">Sign up</a>
+      </li>
+    </ul>
+  </div>
+  </nav>				
+ </div>
+</div>
+		<!-- Navigation end -->		
+
+<!-- Main page -->	
+	<div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-xl-9 mx-auto">
+        <div class="card card-signin flex-row my-5">
+          <div class="card-img-left d-none d-md-flex">
+             <!-- Background image for card set in CSS! -->
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bolder">Register</h5>
+            <form class="form-signin">
+				<div class="form-row">
+
+              <div class="form-label-group col">
+                <input type="text" id="inputFirstName" class="form-control" placeholder="FirstName" required autofocus>
+                <label for="inputFirstName">First Name</label>
+              </div>
+			   <div class="form-label-group">
+                <input type="text" id="inputLastName" class="form-control" placeholder="LastName" required autofocus>
+                <label for="inputLastName">Last Name</label>
+              </div>
+					</div>
+				
+				
+              <div class="form-label-group">
+                <input type="tel" id="phone" class="form-control" placeholder="phone" required>
+                         <label for="phone">Phone number</label>
+     </div>
+
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                <label for="inputEmail">Email address</label>
+              </div>
+              
+              <hr>
+
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <label for="inputPassword">Password</label>
+              </div>
+              
+              <div class="form-label-group">
+                <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
+                <label for="inputConfirmPassword">Confirm password</label>
+              </div>
+
+              <button class="btn btn-lg btn-dark btn-block text-uppercase" type="submit">Register</button>
+              <a class="d-block text-center mt-2 small" href="Login.html">Log In</a>
+              <hr class="my-4">
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small bg-black text-white  p-3 ">
+<h5 class="font-weight-bold  mt-1 mb-1 ml-2">Buildit</h5>
+<div class="footer-copyright text-left py-3 px-2">© 2020 Copyright: <a > Buildit.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
