@@ -1,0 +1,40 @@
+/* CSS Document */
+
+.mainpage-banner {
+	background-image: url("../images/background/pencil.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	object-fit: contain;
+		
+}
+.bg-black {
+  background-color: #000000 !important;
+}
+.bg-marble {
+  background-color: #F5F7FB !important;
+}
+
+ .nav-item {
+	 width: auto
+}
+
+.black {
+  background-color: #000000 !important;
+}
+
+.page-footer {
+	
+	
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+	flex-shrink: 0;
+	
+}
+	
+.rcorners1 {
+  border-radius: 25px;
+}
